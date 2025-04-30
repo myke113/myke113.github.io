@@ -5,22 +5,28 @@
     <meta charset="utf-8" />
     <style>
       /* GLOBAL STYLES */
-      html {
-        /* font-size: 18px; */
+
+      html, body {
+        margin: 0;
+        padding: 0;
       }
-      body {
-        height: 800px;
+      h1 {
+        margin-top: 0;
       }
       a {
-        /* color: #734b9c; */
+        color: #734b9c;
         color: #f00;
       }
       h2 {
         font-size: 30px;
       }
-      /* div.bio-box {
-        border: 1px solid #0f0;
-      } */
+
+      /* HERO SECTION */
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 50vh;
+        width:  75vw;
+      }
 
       /* SOCIAL STYLES */
       .social-link {
@@ -49,34 +55,20 @@
     </style>
   </head>
   <body>
-    <h1 class="social-link">I'm an h1
-      <div class="bio-box">
-        <h3>Michael Hartl</h3>
-        <a href="https://twitter.com/mhartl" class="social-link">here</a>
-        <p>
-          <div class="bio-copy">
-          Known for his dazzling charm, rapier wit, and unrivaled humility, Michael is the creator of the
-          <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> and principal author of the
-          <a href="https://learnenough.com/"> Learn Enough to Be Dangerous</a> introductory sequence. Michael is also
-          notorious as the founder of <a href="http://tauday.com/">Tau Day</a> and author of
-          <a href="http://tauday.com/tau-manifesto"><em>The Tau Manifesto</em></a
-          >, but rumors that he's secretly a supervillain are slightly exaggerated.
-          </div>
-        </p>
-      </div>
-    </h1>
-
-    <ul>
-      <li class="social-link">
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li class="social-link">
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li class="social-link">
-        <a href="https://example.com/">Link</a>
-      </li>
-    </ul>
+    <div class="full-hero hero-home">
+      <h1>I'm an h1</h1>
+      <ul>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/">Link</a>
+        </li>
+      </ul>
+    </div>
     <h2>I'm an h2</h2>
     <div class="bio-wrapper">
     <div class="bio-box">
