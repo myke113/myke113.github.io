@@ -11,6 +11,7 @@
         padding: 0;
       }
       h1 {
+        font-size: 7vw;
         margin-top: 0;
       }
       a {
@@ -25,18 +26,27 @@
       .full-hero {
         background-color: #c7dbfc;
         height: 50vh;
-        width:  75vw;
+      }
+
+      .full-hero li {
+        display: inline;
       }
 
       /* SOCIAL STYLES */
       .social-link {
         background: rgba(150,150,150,0.5);
         color: #00f;
+        display: inline-block;
+        height: 36px;
+        width: 36px;
+      }
+      .show {
+        display: block;
       }
 
       /* BIO STYLES */
       .bio-wrapper {
-        font-size: 24px;
+        /* font-size: 24px; */
       }
       .bio-box {
         border: 1px solid #000;
@@ -59,13 +69,13 @@
       <h1>I'm an h1</h1>
       <ul>
         <li>
-          <a href="https://example.com/">Link</a>
+          <a href="https://example.com/" class="social-link">Link</a>
         </li>
         <li>
-          <a href="https://example.com/">Link</a>
+          <a href="https://example.com/" class="social-link">Link</a>
         </li>
         <li>
-          <a href="https://example.com/">Link</a>
+          <a href="https://example.com/" class="social-link">Link</a>
         </li>
       </ul>
     </div>
@@ -73,7 +83,7 @@
     <div class="bio-wrapper">
     <div class="bio-box">
       <h3>Michael Hartl</h3>
-      <a href="https://twitter.com/mhartl" class="social-link">here</a>
+      <a href="https://twitter.com/mhartl" class="social-link show">here</a>
       <p>
         <div class="bio-copy">
         Known for his dazzling charm, rapier wit, and unrivaled humility, Michael is the creator of the
